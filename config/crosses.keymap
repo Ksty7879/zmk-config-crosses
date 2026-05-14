@@ -24,7 +24,7 @@
         };
 
         mouse_L {
-            bindings = <&mo 3>;
+            bindings = <&mo 5>;
             key-positions = <31 32>;
         };
 
@@ -96,6 +96,15 @@
 &trans  &trans    &trans    &trans    &trans    &trans    &trans    &trans  &bt BT_CLR_ALL  &trans
 &trans  &mkp MB4  &trans    &mkp MB5  &trans    &trans    &trans    &trans  &trans          &trans
 &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans    &trans    &trans    &trans  &trans          &trans
+                  &trans    &trans    &trans    &mkp MB4  &mkp MB5  &trans
+            >;
+        };
+
+        mouse2 {
+            bindings = <
+&trans  &trans    &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans
+&trans  &mkp MB4  &trans    &mkp MB5  &trans    &mkp MB3  &trans    &trans  &trans  &trans
+&trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans    &mkp MB1  &mkp MB2  &trans  &trans  &trans
                   &trans    &trans    &trans    &mkp MB4  &mkp MB5  &trans
             >;
         };
